@@ -10,6 +10,7 @@ Note: Use Babel environment to compile these codes
 3. Nullish Coalescing Operator  [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator]
 4. Optional Chaining Operator (?.)  [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining]
 5. BigInt  [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt]
+6. Private Fields in Classes
 */
 
 **Feature 01 - globalThis**
@@ -125,4 +126,26 @@ const hugeHex = BigInt("0x1fffffffffffff")
 
 const hugeBin = BigInt("0b11111111111111111111111111111111111111111111111111111")
 // ↪ 9007199254740991n
+```
+
+**Feature 06 -  Private Fields in Classes**
+We will use the # sign to indicate that a class variable is a private variable.
+```javascript
+class Counter {
+  #x = 0;
+  increment() {
+    this.#x++;
+  }
+  decrement() {
+    this.#x--;
+  }
+  getNum(){
+    return this.#x;
+  }
+}
+const c = new Counter();
+c.increment(); 
+c.increment(); 
+c.decrement(); 
+console.log(c.getNum());
 ```
