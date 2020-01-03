@@ -1,5 +1,7 @@
 # ES2020 New Features
 
+![alt JavaScript](./Javascript.png)
+
 /*===========================JavaScript ES2020===========================*/
 /*
 1. globalThis  [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis]
