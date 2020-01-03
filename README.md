@@ -11,7 +11,7 @@
 5. BigInt  [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt]
 */
 
-// -------------------------------------**Feature 01 - globalThis**
+**Feature 01 - globalThis**
 
 ```javascript
 console.log("window", window);
@@ -22,7 +22,7 @@ console.log("globalThis", globalThis);
 /* All returuns same window objects */
 ```
 
-// -------------------------------------**Feature 02 - Promise.allSettled()**
+**Feature 02 - Promise.allSettled()**
 
 ```javascript
 const p1 = new Promise((resolve, reject) => setTimeout(resolve, 200));
@@ -40,7 +40,7 @@ Promise.allSettled([p1, p2, p3]).then(results => {
 */
 ```
 
-// -------------------------------------**Feature 03 - Nullish Coalescing Operator**
+**Feature 03 - Nullish Coalescing Operator**
 
 ```javascript
 let x = {
@@ -82,7 +82,7 @@ console.log(x3.profile.name ?? 'John') // blank_string
 console.log(x3.profile.age ?? '25') // 0
 ```
 
-// -------------------------------------**Feature 04 -  Optional Chaining Operator (?.)**
+**Feature 04 -  Optional Chaining Operator (?.)**
 
 ```javascript
 let x4 = {
@@ -102,7 +102,7 @@ console.log(x5 && x5.profile && x5.profile.name); // undefined
 console.log(x5?.profile?.name);  // undefined
 ```
 
-// -------------------------------------**Feature 05 -  BigInt**
+**Feature 05 -  BigInt**
 
 ```javascript
 const max = Number.MAX_SAFE_INTEGER
