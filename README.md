@@ -4,14 +4,12 @@
 
 Note: Use Babel environment to compile these codes
 /*===========================JavaScript ES2020===========================*/
-/*
 1. globalThis  [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis]
 2. Promise.allSettled()  [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled]
 3. Nullish Coalescing Operator  [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator]
 4. Optional Chaining Operator (?.)  [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining]
 5. BigInt  [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt]
 6. Private Fields in Classes
-*/
 
 **Feature 01 - globalThis**
 
